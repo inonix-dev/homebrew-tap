@@ -1,25 +1,25 @@
 class Fael < Formula
   desc "fael CLI — a repo's memory that agents can't skip writing"
   homepage "https://github.com/inonix-dev/fael"
-  version "0.0.4"
+  version "0.0.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/inonix-dev/fael/releases/download/v0.0.4/fael-aarch64-apple-darwin.tar.xz"
-      sha256 "0d378718c951156976d7d801f53e89bfe008793c5cf7d3f9a662894f32cb1724"
+      url "https://github.com/inonix-dev/fael/releases/download/v0.0.5/fael-aarch64-apple-darwin.tar.xz"
+      sha256 "7d1c7da2bd3cd5dc855ee98f96ef6773565a4fd1e68c97191bc246b0fe6e1a6f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/inonix-dev/fael/releases/download/v0.0.4/fael-x86_64-apple-darwin.tar.xz"
-      sha256 "63a9f9e42d2d206b5199dd78566b44aaea773cbf1afa6bc2b25a1b909a4d9b59"
+      url "https://github.com/inonix-dev/fael/releases/download/v0.0.5/fael-x86_64-apple-darwin.tar.xz"
+      sha256 "7d7e4f514caad6d9b3a68840eeed15d9153615ee7ae5272c8dfcf35b9ae34cf8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/inonix-dev/fael/releases/download/v0.0.4/fael-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3464b1770b2e470fa0d5fe01b12a725d9341aafc7a6880be3e4ca20c9a96c317"
+      url "https://github.com/inonix-dev/fael/releases/download/v0.0.5/fael-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "afe595b18aebd46a41cd65b8b5b23eb7bbd49bf8c53cec7a42e3aa0a389ef9ce"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/inonix-dev/fael/releases/download/v0.0.4/fael-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8950bcbdcaa285f3cf9d67a35351b2cbe35c68d8d99e0ac842cab3e4743f83fe"
+      url "https://github.com/inonix-dev/fael/releases/download/v0.0.5/fael-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "edcd803813e905837d895202cba16d85215c793f2f25c5dca0ea0d34fa1b9ab8"
     end
   end
   license "MIT"
